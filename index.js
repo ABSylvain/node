@@ -1,7 +1,7 @@
-//import fs from 'fs';
-// (ou)
+let data = require('./data');
 
-let fs = require('fs');
-let hello = require('main.js');
-fs.readFile('/home/', function(error, data) { console.log(data); });
-console.log(fs);
+data.request(function(callback) {
+    for (let i = 0; i < callback.length; i++) {
+        console.log(callback[i].message);
+    }
+});
