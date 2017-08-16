@@ -1,0 +1,22 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "premier node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABSylvain/node.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "sylvain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ABSylvain/node/issues"
+  },
+  "homepage": "https://github.com/ABSylvain/node#readme"
+}
